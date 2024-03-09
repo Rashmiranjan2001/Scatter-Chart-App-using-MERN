@@ -1,0 +1,52 @@
+/* Modal styles */
+.popup-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+  
+  /* Button styles */
+  .modal-button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .modal-button.red {
+    background-color: #f44336;
+  }
+  
+  .modal-button.blue {
+    background-color: #2196f3;
+  }
+  
+  .modal-button:hover {
+    opacity: 0.8;
+  }
+
+  .input-field {
+    appearance: none;
+    outline: none;
+    border: 1px solid #d1d5db; /* Add border properties */
+    border-radius: 0.25rem;
+    padding: 0.5rem;
+    width: 100%;
+    transition: border-color 0.3s ease;
+  }
+  
+  .input-field:focus {
+    border-color: #4f46e5; /* Change border color on focus */
+  }
+
+  
+  
+  
